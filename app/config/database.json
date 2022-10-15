@@ -1,10 +1,16 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "bwa_db_toko_buku",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "pjvtztmuxywore",
+    "password": "3e8dbafda1cfe3263629e5b6d9e7ec0f12307978a77544bdcede2358794ed86d",
+    "database": "deuom3qq0m0kg9",
+    "host": "ec2-23-20-140-229.compute-1.amazonaws.com",
+    "port" : 5432,
+    "dialect": "postgres",
+    "dialectOptions" : {
+      "ssl" : {
+        "rejectUnauthorized" : false
+      }
+    }
   },
   "test": {
     "username": "root",
@@ -20,7 +26,7 @@
     "host": "ec2-23-20-140-229.compute-1.amazonaws.com",
     "port" : 5432,
     "dialect": "postgres",
-    "dialectOption" : {
+    "dialectOptions" : {
       "ssl" : {
         "rejectUnauthorized" : false
       }
